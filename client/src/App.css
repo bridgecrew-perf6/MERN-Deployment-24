@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  background: darkorange;
+  height: 1000px;
+}
+
+.Header {
+  background-color:sienna;
+}
+
+.headertext {
+  color: white;
+  margin-left: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.column1, .column2 {
+  flex: 1;
+  padding:10px
+}
+
+.singleimg {
+  width:250px;
+}
+
+.column2 {
+  background-color: white;
+}
